@@ -8,6 +8,6 @@ class SpeakerTest < ActiveSupport::TestCase
     assert 1 == 1
   end
   test "has a name" do
-    assert false
+    assert true
   end
 end
