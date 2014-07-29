@@ -7,4 +7,7 @@ class SpeakerTest < ActiveSupport::TestCase
   test "another truth" do
     assert 1 == 1
   end
+  test "has a name" do
+    assert false
+  end
 end
