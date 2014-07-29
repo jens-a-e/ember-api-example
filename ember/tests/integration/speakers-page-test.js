@@ -1,3 +1,4 @@
+import Ember from 'ember';
 import startApp from 'bostonember/tests/helpers/start-app';
 
 var App, server;

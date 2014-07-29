@@ -2,6 +2,7 @@
 
 var Application = require('bostonember/app')['default'];
 var Router = require('bostonember/router')['default'];
+import Ember from 'ember';
 
 export default function startApp(attrs) {
   var App;

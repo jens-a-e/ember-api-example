@@ -9,15 +9,18 @@
 
     {{BASE_TAG}}
 
-    <link rel="stylesheet" href="assets/app.css">
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/bostonember.css">
   </head>
   <body>
     <script>
-      window.ENV = {{ENV}};
+      window.BostonemberENV = {{ENV}};
+      window.EmberENV = window.BostonemberENV.EmberENV;
     </script>
-    <script src="assets/app.js"></script>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/bostonember.js"></script>
     <script>
-      window.Bostonember = require('bostonember/app')['default'].create(ENV.APP);
+      window.Bostonember = require('bostonember/app')['default'].create(BostonemberENV.APP);
     </script>
   </body>
 </html>
