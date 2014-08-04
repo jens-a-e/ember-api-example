@@ -17,6 +17,8 @@ gem 'active_model_serializers'
 
 gem 'minitest-reporters'
 
+gem 'puma'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
